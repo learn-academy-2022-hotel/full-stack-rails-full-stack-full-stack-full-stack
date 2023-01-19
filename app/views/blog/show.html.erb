@@ -2,3 +2,4 @@
 <br>
 <h3> <%= @blog.content %> </h3>
 <%= link_to 'Back to Home', blogs_path %>
+<%= button_to 'Remove Blog Post', delete_blog_path, method: :delete %>
